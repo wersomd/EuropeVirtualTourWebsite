@@ -6,41 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wersomd</title>
+    <link rel="shortcut icon" href="img/icons/logo.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,900;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
 </head>
 
 <body>
     <div class="wrapper">
         <header class="header" id="header">
             <div class="container">
-                <div class="header-items">
-                    <div class="logo">
-                        <h1 class="logo-text">Wersomd</h1>
+                <nav class="nav">
+                    <div class="nav-container">
+                        <a href="./index.html" class="logo">
+                            <img src="img/icons/logo.png" alt="Logo" class="logo-img">
+                        </a>
+                        <button type="button" class="burger" id="burger" title="Burger">
+                            <span class="burger-line"></span>
+                            <span class="burger-line"></span>
+                            <span class="burger-line"></span>
+                            <span class="burger-line"></span>
+                        </button>
+                        <div class="menu" id="menu">
+                            <ul class="menu-list">
+                                <li class="menu-item"><a href="#" class="menu-link" data-goto=".about">О Нас</a>
+                                </li>
+                                <li class="menu-item"><a href="#" class="menu-link" data-goto=".services">Услуги</a>
+                                </li>
+                                <li class="menu-item"><a href="#" class="menu-link" data-goto=".why">Города</a>
+                                </li>
+                                <li class="menu-item"><a href="#" class="menu-link" data-goto=".tech">Стек</a>
+                                </li>
+                                <li class="menu-item"><a href="#" class="menu-link" data-goto=".footer">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header-buttons">
+                            <a href="#" class="header-btn btn">Контакты</a>
+                            <a href="#" class="header-btn btn">Путешествовать</a>
+                        </div>
                     </div>
-                    <nav class="menu">
-                        <ul class="menu-list">
-                            <li class="menu-item">
-                                <a href="#" class="menu-link">About</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#" class="menu-link">Services</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#" class="menu-link">Technologies</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#" class="menu-link">How to</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="header-buttons">
-                        <a href="#" class="header-btn btn">Contact us</a>
-                        <a href="#" class="header-btn btn">Join</a>
-                    </div>
-                </div>
+                </nav>
             </div>
         </header>
         <main class="main" id="main">
@@ -48,11 +56,13 @@
                 <div class="container">
                     <div class="hero-items">
                         <div class="hero-text">
-                            <h1 class="hero-title">Виртуальный город</h1>
+                            <h1 class="hero-title">Виртуальный тур по Парижу</h1>
                             <p class="hero-desc">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore
-                                nisl tincidunt eget. Lectus mauris eros in vitae .
+                                Добро пожаловать в Виртуальный тур по Парижу, который позволит вам почувствовать себя,
+                                будто вы находитесь в самом
+                                сердце французской столицы. В этом туре вы сможете посетить множество известных
+                                достопримечательностей Парижа,
+                                ознакомиться с его богатой культурой и историей, а также насладиться красотами города.
                             </p>
                             <div class="hero-btn">
                                 <a href="#" class="hero-btn-link hero-btn-text">Путешествуй с нами</a>
@@ -76,7 +86,7 @@
                             </div>
                             <div class="info-text">
                                 <h3 class="info-top">
-                                    Pay Us a Visit
+                                    Адрес
                                 </h3>
                                 <div class="info-desc">
                                     Almaty, Kazakhstan
@@ -89,10 +99,10 @@
                             </div>
                             <div class="info-text">
                                 <h3 class="info-top">
-                                    Give Us a Call
+                                    Телефон
                                 </h3>
                                 <div class="info-desc">
-                                    8 708 663 6813
+                                    8 707 017 1318
                                 </div>
                             </div>
                         </div>
@@ -102,7 +112,7 @@
                             </div>
                             <div class="info-text">
                                 <h3 class="info-top">
-                                    Send Us a Message
+                                    E-Mail
                                 </h3>
                                 <div class="info-desc">
                                     ileskazybek@gmail.com
@@ -120,102 +130,91 @@
                         </div>
                         <div class="about-text">
                             <h2 class="about-title">
-                                About
+                                Услуги
                             </h2>
                             <p class="about-desc">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum corporis laborum iure
-                                exercitationem, sint beatae dolore mollitia! Ad voluptas ab quaerat dolore, sunt facere
-                                excepturi dolor natus odio mollitia ipsum. Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Deserunt, error illo. Modi veritatis reprehenderit voluptates, quis
-                                sed similique dolorum voluptatum, sint ipsum ut animi illo odio qui fuga labore natus.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi illo molestias nam
-                                assumenda exercitationem ipsum deserunt ipsa quia veniam maxime. Blanditiis cupiditate,
-                                molestias doloribus sunt accusantium laborum non repudiandae consequuntur.
+                                Виртуальный тур начинается с прогулки по улицам Монмартра, района, известного своей
+                                исторической и художественной
+                                ценностью. Вы побываете на бугре Монмартра, откуда открывается захватывающий вид на
+                                город и знаменитый Базилику
+                                Сакре-Кёр. После этого вы сможете посетить Эйфелеву башню и насладиться видом на Париж с
+                                ее вершины.
+
+                                Далее ваш виртуальный тур приведет вас к Лувру - одному из крупнейших музеев мира, где
+                                вы сможете увидеть знаменитые
+                                произведения искусства, такие как Мона Лиза и Венера Милосская. Вы также сможете
+                                прогуляться по прекрасным садам Тюильри
+                                и насладиться их красотой и умиротворением.<br>
+
+                                В туре вы также побываете на Арки де Триомф, Конкорде, Опере Гарнье, Катедральном соборе
+                                Парижской Богоматери, а также
+                                на других известных местах города. Вы узнаете много интересного о культуре, истории и
+                                архитектуре Парижа, а также
+                                получите возможность насладиться его красотой и романтикой, не выходя из дома.<br>
+
+                                Виртуальный тур по Парижу - это уникальная возможность погрузиться в атмосферу этого
+                                красивого города и увидеть его
+                                главные достопримечательности, не выходя из дома. Он подходит для тех, кто хочет узнать
+                                больше о Париже или просто
+                                насладиться его красотой и атмосферой. Присоединяйтесь к нашему виртуальному туру и
+                                отправляйтесь в увлекательное
+                                путешествие по Париж
                             </p>
-                            <a href="#" class="about-btn btn">Let's Get In Touch</a>
+                            <a href="#" class="about-btn btn">Путешествовать</a>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="why" id="why">
                 <div class="container">
-                    <div class="why-header">
-                        <div class="why-left">
-                            <h2 class="why-header-title">
-                                Why Build
-                            </h2>
-                            <div class="why-header-subtitle">
-                                With Hydra?
-                                <img src="img/icons/s-arrow.svg" alt="Why?">
-                            </div>
-                        </div>
-                        <div class="why-right">
-                            Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat
-                            nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo
-                            quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare
-                            lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
-                        </div>
-                    </div>
                     <div class="why-items">
                         <div class="why-item">
                             <div class="why-img">
-                                <img src="img/why/why-1.jpg" alt="Why Us">
+                                <img src="img/why/paris.jpg" alt="Why Us">
                             </div>
                             <h3 class="why-title">
-                                Simulation
+                                Эйфелева башня
                             </h3>
                             <div class="why-line"></div>
                             <div class="why-desc">
-                                Vitae sapien pellentesque habitant morbi
-                                nunc. Viverra aliquet porttitor rhoncus
-                                libero justo laoreet sit amet vitae.
                             </div>
-                            <a href="#" class="why-btn btn">Try It Now</a>
+                            <a href="#" class="why-btn btn">Попробовать</a>
                         </div>
                         <div class="why-item">
                             <div class="why-img">
-                                <img src="img/why/why-2.jpg" alt="Why Us">
+                                <img src="img/why/luvr.webp" alt="Why Us">
                             </div>
                             <h3 class="why-title">
-                                EDUCATION
+                                Лувр
                             </h3>
                             <div class="why-line"></div>
                             <div class="why-desc">
-                                Vitae sapien pellentesque habitant morbi
-                                nunc. Viverra aliquet porttitor rhoncus
-                                libero justo laoreet sit amet vitae.
                             </div>
-                            <a href="#" class="why-btn btn">Try It Now</a>
+                            <a href="#" class="why-btn btn">Попробовать</a>
                         </div>
                         <div class="why-item">
                             <div class="why-img">
-                                <img src="img/why/why-3.jpg" alt="Why Us">
+                                <img src="img/why/notr-dam.webp" alt="Why Us">
                             </div>
                             <h3 class="why-title">
-                                SELF-CARE
+                                Нотр-Дам
                             </h3>
                             <div class="why-line"></div>
                             <div class="why-desc">
-                                Vitae sapien pellentesque habitant morbi
-                                nunc. Viverra aliquet porttitor rhoncus
-                                libero justo laoreet sit amet vitae.
                             </div>
-                            <a href="#" class="why-btn btn">Try It Now</a>
+                            <a href="#" class="why-btn btn">Попробовать</a>
                         </div>
                         <div class="why-item">
                             <div class="why-img">
-                                <img src="img/why/why-4.jpg" alt="Why Us">
+                                <img src="img/why/disneilend.webp" alt="Why Us">
                             </div>
                             <h3 class="why-title">
-                                OUTDOOR
+                                Диснейленд
                             </h3>
                             <div class="why-line"></div>
                             <div class="why-desc">
-                                Vitae sapien pellentesque habitant morbi
-                                nunc. Viverra aliquet porttitor rhoncus
-                                libero justo laoreet sit amet vitae.
                             </div>
-                            <a href="#" class="why-btn btn">Try It Now</a>
+                            <a href="#" class="why-btn btn">Попробовать</a>
                         </div>
                     </div>
                 </div>
@@ -235,29 +234,29 @@
             <div class="container">
                 <div class="footer-items">
                     <div class="footer-logo">
-                        <img src="img/footer/footer-logo.svg" alt="Footer Logo">
+                        <img src="img/icons/logo.png" alt="Footer Logo">
                     </div>
                     <div class="footer-line"></div>
                     <div class="footer-menu">
                         <ul class="footer-list">
                             <li class="footer-item">
-                                <a href="#" class="footer-link">About</a>
+                                <a href="#" class="footer-link">О Нас</a>
                             </li>
                             <li class="footer-item">
-                                <a href="#" class="footer-link">Services</a>
+                                <a href="#" class="footer-link">Услуги</a>
                             </li>
                             <li class="footer-item">
-                                <a href="#" class="footer-link">Technologies</a>
+                                <a href="#" class="footer-link">Стек</a>
                             </li>
                             <li class="footer-item">
-                                <a href="#" class="footer-link">Join</a>
+                                <a href="#" class="footer-link">Путешествовать</a>
                             </li>
                         </ul>
                     </div>
                     <div class="footer-line"></div>
                     <div class="footer-social">
                         <div class="social-title">
-                            SOCIALIZE WITH HYDRA
+                            Мы в социальных сетях
                         </div>
                         <ul class="social-list">
                             <li class="social-item">
